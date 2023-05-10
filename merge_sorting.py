@@ -3,6 +3,7 @@ def merge_sort(list):
     merge_sortR(list, 0, len(list) - 1)
 
 # sorts list elements in range of indices sti to endi (inclusive)
+# O(nlog(n))
 def merge_sortR(list, sti, endi):
     if sti >= endi:
         return   # 1 element by itself is already sorted so we are done
