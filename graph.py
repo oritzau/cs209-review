@@ -1,5 +1,5 @@
 import linked_list
-import Queue
+import pqheap as Queue
 import stack
 
 class Vertex:

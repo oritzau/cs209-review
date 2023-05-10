@@ -46,7 +46,7 @@ class BinaryMaxHeap:
                 pari = self.__parenti(curri)
             else:
                 break
-
+    # O(log(n))
     def remove(self):
         thing_to_return = self.__heap[0]
         
